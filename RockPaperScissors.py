@@ -33,13 +33,13 @@ def gameMatch() :
     print("Bot:", botMove)
     print()
     
+    # Determine the result of the game.
     if userMove == (botMove) :
         return "It's a tie\n!"
     elif isWin(userMove, botMove) :
         return "You win!\n"
     else : 
         return "You lose!\n"
-
         
 # This function determins if the user wins the game
 # @return   True if the user wins or meets any of the condition, False if not
