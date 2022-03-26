@@ -1,5 +1,6 @@
 # A simple rock, papers, scissors game with a bot
 # with a simple while loop to keep playing the game
+
 import random
 
 # The main method.
